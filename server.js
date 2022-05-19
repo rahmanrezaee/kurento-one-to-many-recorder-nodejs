@@ -31,7 +31,7 @@ var recorder_filename = 'file:///tmp/temp_video.webm';
 var argv = minimist(process.argv.slice(2), {
 	default: {
 		as_uri: 'https://localhost:8443/',
-		ws_uri: 'ws://54.153.21.189:8888/kurento',
+		ws_uri: 'ws://localhost:8888/kurento',
 		file_uri: recorder_filename
 	}
 });
